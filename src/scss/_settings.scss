@@ -94,3 +94,37 @@ h1,h2,h3,h4,h5,p
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
 }
+.main
+{
+  width: 100%;
+}
+.title-section
+{
+  font-size: var(--h1-font-size);
+  text-align: left;
+  font-weight: var(--font-bold);
+  font-family: var(--body-font);
+}
+.title-section__white
+{
+  color: var(--color-white);
+}
+.title-section__black
+{
+  color: var(--first-color);
+}
+.description-section
+{
+  font-size: var(--font-size-default);
+  text-align: left;
+  line-height: 22.07px;
+  font-weight: var(--font-reqular);
+}
+.description-section__white
+{
+  color: var(--color-white);
+}
+.description-section__black
+{
+  color: var(--first-color);
+}

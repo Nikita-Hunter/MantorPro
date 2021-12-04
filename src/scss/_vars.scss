@@ -5,7 +5,7 @@
   --text-color-white: #fff;
   --text-color-black: #010007;
   --body-color: #fff;
-  --color-transparent: rgba(31, 51, 65, 0.4);
+  --color-transparent: rgba(255, 255, 255, 0.3);
   --text-transparent: rgba(0, 0, 0, 0.38);
   --color-block:  rgba(0, 0, 0, 0.05);
   --color-white: #FFFFFF;
@@ -13,11 +13,12 @@
   --color-hover: #6D818E;
   --color-border: rgba(255, 255, 255, 0.12);
   --body-font: "CenturyGothic", sans-serif;
-  --font-partner: "PartnerUltraCondensed", sans-serif;
-  --h1-font-size: 48px;
-  --h2-font-size: 36px;
-  --h3-font-size: 32px;
+  --font-partner: "PartnerUltraCondensed", sans-serif !important; 
+  --h1-font-size: 24px;
+  --h2-font-size: 24px;
+  --h3-font-size: 14px;
   --h4-font-size: 24px;
+  --font-size-default: 14px;
   --normal-font-size: 400;
   --font-medium: 400;
   --font-bold: 700;
@@ -33,5 +34,30 @@
 /* стили для средних планшетов - начало */
 }
 @media screen and (min-width: 479px) {
-  /* стили для телефонов - начало */
+  :root {
+    --first-color: #010007;
+    --text-color-white: #fff;
+    --text-color-black: #010007;
+    --body-color: #fff;
+    --color-transparent: rgba(31, 51, 65, 0.4);
+    --text-transparent: rgba(0, 0, 0, 0.38);
+    --color-block:  rgba(0, 0, 0, 0.05);
+    --color-white: #FFFFFF;
+    --section-color: radial-gradient(53.88% 97% at 50% 48.5%, #2E4151 0%, #010007 100%);
+    --color-hover: #6D818E;
+    --color-border: rgba(255, 255, 255, 0.12);
+    --body-font: "CenturyGothic", sans-serif;
+    --font-partner: "PartnerUltraCondensed", sans-serif !important; 
+    --h1-font-size: 48px;
+    --h2-font-size: 36px;
+    --h3-font-size: 32px;
+    --h4-font-size: 24px;
+    --font-size-default: 18px;
+    --normal-font-size: 400;
+    --font-medium: 400;
+    --font-bold: 700;
+    --font-reqular: 400;
+    --z-fixed: 100;
+    --z-sticky: 10;
+  }
 }

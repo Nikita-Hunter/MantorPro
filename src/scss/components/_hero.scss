@@ -1,0 +1,38 @@
+.hero
+{
+    width: 100%;
+    min-height: 412px;
+    background: #010007;
+    background-image: url(../img/mask-group-navbar.svg);
+    background-image: url(../img/mask-group-navbar.svg), radial-gradient(53.88% 97% at 50% 48.5%, #2E4151 0%, #010007 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    &__content
+    {
+        width: 100%;
+        padding: 16px 0 40px 0;
+    }
+    &__title
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    &__description
+    {
+        width: 100%;
+        padding-left: 20px;
+        position: relative;
+        &::after
+        {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 6px;
+            height: 100%;
+            background-color: var(--color-transparent);
+        }
+    }
+}
