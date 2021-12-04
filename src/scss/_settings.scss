@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--body-color);
+  font-weight: var(--font-reqular);
+  font-size: var(--body-font);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,p
+{
+  margin: 0;
+  padding: 0;
+}
+.site-container {
+  overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+}
+
+.is-hidden {
+  display: none !important; // stylelint-disable-line declaration-no-important
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.d-flex
+{
+  display: flex;
+}
+.jc-between
+{
+  justify-content: space-between;
+}
+.jc-center
+{
+  justify-content: center;
+}
+.jc-start
+{
+  justify-content: flex-start;
+}
+.jc-end
+{
+  justify-content: flex-end;
+}
+.ai-center
+{
+  align-items: center;
+}
+.ai-start
+{
+  align-items: flex-start;
+}
+.ai-end
+{
+  align-items: flex-end;
+}
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1130px;
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
